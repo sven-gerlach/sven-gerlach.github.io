@@ -1,16 +1,24 @@
-import React, {Fragment} from 'react'
+import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Navbar/Header'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import About from './components/About/About'
+
+// use react-scroll for smooth scrolling
+// use react-reveal for revealing / fading
+
 function App() {
   return (
-    <Fragment>
+    <Router>
       <Header />
       <main>
-
+        <Route path='/'>
+          <About />
+        </Route>
       </main>
-    </Fragment>
-  );
+    </Router>
+  )
 }
 
 export default App;
