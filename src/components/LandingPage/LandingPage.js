@@ -21,6 +21,7 @@ class LandingPage extends Component {
                       href='https://github.com/sven-gerlach'
                       title={'Link to Sven\'s GitHub profile page'}
                       target='_blank'
+                      rel='noreferrer'
                     >
                       <Img src={imgGitHub} alt='black & white GitHub logo' />
                     </a>
@@ -28,6 +29,7 @@ class LandingPage extends Component {
                       href='https://www.linkedin.com/in/svengerlach/'
                       title={'Link to Sven\'s LinkedIn page'}
                       target='_blank'
+                      rel='noreferrer'
                     ><Img src={imgLinkedIn} alt='black & white LinkedIn logo' />
                     </a>
                   </ContactDiv>
