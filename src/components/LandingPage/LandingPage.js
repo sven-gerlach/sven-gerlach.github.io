@@ -1,38 +1,49 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import styled from 'styled-components'
 import imgCode from './../../lib/img/Code_effects.png'
 import imgGitHub from './../../lib/img/GitHub-Mark-Light-120px-plus.png'
 import imgLinkedIn from '../../lib/img/LinkedIn.png'
+import {Col, Container, Row} from "react-bootstrap";
 
 class LandingPage extends Component {
   render () {
     return (
-      <Fragment>
+      <>
         <ImgContainer>
-          <TextContainer>
-            <H1>Sven Gerlach</H1>
-            <P>| &nbsp; FULL STACK DEVELOPER &nbsp; |</P>
-            <ContactDiv>
-              <a
-                href='https://github.com/sven-gerlach'
-                title={'Link to Sven\'s GitHub profile page'}
-                target='_blank'
-              >
-                <Img src={imgGitHub} alt='black & white GitHub logo' />
-              </a>
-              <a
-                href='https://www.linkedin.com/in/svengerlach/'
-                title={'Link to Sven\'s LinkedIn page'}
-                target='_blank'
-              ><Img src={imgLinkedIn} alt='black & white LinkedIn logo' />
-              </a>
-            </ContactDiv>
-          </TextContainer>
-          <ScrollDown>
-            <div className="arrow"></div>
-          </ScrollDown>
+          <Container>
+            <Row>
+              <Col>
+                <TextContainer>
+                  <H1>Sven Gerlach</H1>
+                  <P>| &nbsp; FULL STACK DEVELOPER &nbsp; |</P>
+                  <ContactDiv>
+                    <a
+                      href='https://github.com/sven-gerlach'
+                      title={'Link to Sven\'s GitHub profile page'}
+                      target='_blank'
+                    >
+                      <Img src={imgGitHub} alt='black & white GitHub logo' />
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/svengerlach/'
+                      title={'Link to Sven\'s LinkedIn page'}
+                      target='_blank'
+                    ><Img src={imgLinkedIn} alt='black & white LinkedIn logo' />
+                    </a>
+                  </ContactDiv>
+                </TextContainer>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <ScrollDown>
+                  <div className="arrow"></div>
+                </ScrollDown>
+              </Col>
+            </Row>
+          </Container>
         </ImgContainer>
-      </Fragment>
+      </>
     )
   }
 }
@@ -104,8 +115,8 @@ const Img = styled.img`
 `
 
 const ScrollDown = styled.div`
-  position: absolute;
-  bottom: 80px;
+  position: relative;
+  bottom: -20vh;
   
   .arrow,
   .arrow:before {
