@@ -122,6 +122,17 @@ const ScrollDown = styled.div`
     border-top: none;
     border-right: 2px #fff solid;
     border-bottom: 2px #fff solid;
+    
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      border-color: darkred;
+      &:before {
+        border-color: darkred;
+      }
+    }
   }
 
   .arrow:before {
