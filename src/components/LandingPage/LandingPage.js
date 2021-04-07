@@ -4,12 +4,13 @@ import imgCode from './../../lib/img/Code_effects.png'
 import imgGitHub from './../../lib/img/GitHub-Mark-Light-120px-plus.png'
 import imgLinkedIn from '../../lib/img/LinkedIn.png'
 import {Col, Container, Row} from "react-bootstrap";
+import { scroller } from 'react-scroll'
 
 class LandingPage extends Component {
   render () {
     return (
       <>
-        <ImgContainer id='landing-page'>
+        <ImgContainer>
           <Container>
             <Row>
               <Col>
@@ -40,7 +41,11 @@ class LandingPage extends Component {
             <Row>
               <Col>
                 <ScrollDown>
-                  <div className="arrow"></div>
+                  <div className="arrow" onClick={() => scroller.scrollTo('about', {
+                    spy: 'true',
+                    smooth: 'easeInOutQuad',
+                    duration: 1500
+                  })}></div>
                 </ScrollDown>
               </Col>
             </Row>

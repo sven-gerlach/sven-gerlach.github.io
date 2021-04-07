@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import { Container, Row, Col } from "react-bootstrap"
 import styled from 'styled-components'
 import sven from './../../lib/img/Sven_b&w.png'
+import { Element } from 'react-scroll'
 
 class About extends Component {
   render () {
@@ -10,7 +11,7 @@ class About extends Component {
         <Container className='mt-5'>
           <Row>
             <Col>
-              <H2 id='about'>ABOUT</H2>
+              <Element name='about' className='element'><H2 id='about'>ABOUT</H2></Element>
               <section>
                 <ImgSven src={sven} alt='black and white portrait of Sven' />
                 <H5>Who am I?</H5>
