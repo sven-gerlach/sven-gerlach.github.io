@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <header>
         <Navbar bg="light" expand="sm" collapseOnSelect='true' fixed='top'>
-          <Navbar.Brand href='/'>Sven</Navbar.Brand>
+          <Navbar.Brand href='/#landing-page'>Sven</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">

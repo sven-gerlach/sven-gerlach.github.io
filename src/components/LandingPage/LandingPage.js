@@ -9,11 +9,12 @@ class LandingPage extends Component {
   render () {
     return (
       <>
-        <ImgContainer>
+        <ImgContainer id='landing-page'>
           <Container>
             <Row>
               <Col>
                 <TextContainer>
+                  {/*todo: consider using Jetbrains font and design some key phrases like code*/}
                   <H1>Sven Gerlach</H1>
                   <P>| &nbsp; FULL STACK DEVELOPER &nbsp; |</P>
                   <ContactDiv>
@@ -67,17 +68,16 @@ const TextContainer = styled.div`
   background-color: rgba(0,0,0,0.5);
   padding: 30px;
   border-radius: 70px;
+  color: rgb(169, 182, 197);
 `
 
 const H1 = styled.h1`
-  color: white;
   font-size: 5rem;
   text-align: center;
   letter-spacing: 4px;
 `
 
 const P = styled.p`
-  color: white;
   font-size: 1rem;
   text-align: center;
   letter-spacing: 1px;
@@ -141,9 +141,9 @@ const ScrollDown = styled.div`
     }
 
     &:active {
-      border-color: darkred;
+      border-color: rgb(102, 131, 86);
       &:before {
-        border-color: darkred;
+        border-color: rgb(102, 131, 86);
       }
     }
   }
