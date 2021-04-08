@@ -4,6 +4,7 @@ import Header from './components/Navbar/Header'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import LandingPage from './components/LandingPage/LandingPage'
 import About from './../src/components/About/About'
+import Skills from './components/Skills/Skills'
 
 // use react-scroll for smooth scrolling
 // use react-reveal for revealing / fading
@@ -16,6 +17,7 @@ function App() {
         <Route path='/'>
           <LandingPage />
           <About />
+          <Skills />
         </Route>
       </main>
     </Router>

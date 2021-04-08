@@ -44,8 +44,10 @@ class LandingPage extends Component {
                   <div className="arrow" onClick={() => scroller.scrollTo('about', {
                     spy: 'true',
                     smooth: 'easeInOutQuad',
-                    duration: 1500
-                  })}></div>
+                    duration: 1500,
+                    offset: -100
+                  })}>
+                  </div>
                 </ScrollDown>
               </Col>
             </Row>
@@ -62,7 +64,6 @@ const ImgContainer = styled.div`
   background-position: left;
   margin-top: 56px;
   height: calc(100vh - 56px);
-  background-color: rgba(0,0,0,0.5);
   display: flex;
   flex-direction: column;
   align-items: center;

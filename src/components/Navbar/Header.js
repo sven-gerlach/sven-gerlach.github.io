@@ -14,15 +14,15 @@ class Header extends Component {
     return (
       <header>
         <Navbar bg="light" expand="sm" collapseOnSelect='true' fixed='top'>
-          <Navbar.Brand href='/#landing-page' onClick={() => scroll.scrollToTop()}>Sven</Navbar.Brand>
+          <NavbarTextStyled className='navbar-brand' onClick={() => scroll.scrollToTop()}>Sven</NavbarTextStyled>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='about' spy={true} smooth='easeInOutQuad' duration={1500} >About</LinkStyled>
-              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='' spy={true} smooth='easeInOutQuad' duration={1500} >Skills</LinkStyled>
-              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='' spy={true} smooth='easeInOutQuad' duration={1500} >Projects</LinkStyled>
-              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='' spy={true} smooth='easeInOutQuad' duration={1500} >Resume</LinkStyled>
-              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='' spy={true} smooth='easeInOutQuad' duration={1500} >Contact</LinkStyled>
+              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='about' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >About</LinkStyled>
+              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='skills' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Skills</LinkStyled>
+              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Projects</LinkStyled>
+              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Resume</LinkStyled>
+              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Contact</LinkStyled>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -32,6 +32,12 @@ class Header extends Component {
 }
 
 const LinkStyled  = styled(Link)`
+  :hover {
+    cursor: pointer;
+  }
+`
+
+const NavbarTextStyled = styled(Navbar.Text)`
   :hover {
     cursor: pointer;
   }
