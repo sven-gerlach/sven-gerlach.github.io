@@ -11,7 +11,7 @@ class About extends Component {
         <Container className='mt-5'>
           <Row>
             <Col>
-              <Element name='about' className='element'><H2 id='about'>ABOUT</H2></Element>
+              <Element name='about' className='element'><H2>ABOUT</H2></Element>
               <section>
                 <ImgSven src={sven} alt='black and white portrait of Sven' />
                 <H5>Who am I?</H5>

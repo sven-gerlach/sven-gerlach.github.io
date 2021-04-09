@@ -3,6 +3,7 @@ import {Col, Container, Row} from 'react-bootstrap';
 import { Element } from 'react-scroll';
 import styled from 'styled-components';
 import imgCode from './../../lib/img/AI-logic_effects.png'
+import SkillComponents from './Skill/Skill'
 
 class Skills extends Component {
   render () {
@@ -11,11 +12,12 @@ class Skills extends Component {
         <Container>
           <Row>
             <Col>
-              <SkillsContainer>
-                <Element name='skills' className='element'><H2 id='about'>TECHNICAL SKILLS</H2></Element>
-              </SkillsContainer>
+              <Element name='skills' className='element'><H2>TECHNICAL SKILLS</H2></Element>
             </Col>
           </Row>
+          <RowContainer>
+            <SkillComponents />
+          </RowContainer>
         </Container>
       </ImgContainer>
     )
@@ -23,26 +25,29 @@ class Skills extends Component {
 }
 
 const ImgContainer = styled.div`
-  background-image: url(${imgCode});
+   //background-image: url(${imgCode});
+  background-color: rgb(43,43,43);
   background-size: cover;
   background-position: left;
   margin-top: 56px;
-  height: calc(100vh - 56px);
+  height: 100%;
+`
+
+const RowContainer = styled(Row)`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 `
 
 const H2 = styled.h2`
   color: rgb(202, 120, 50);
   text-align: center;
-  margin: 20px 0 20px 0;
+  margin: 60px auto;
   letter-spacing: 4px;
-`
-
-const SkillsContainer = styled.div`
-  margin-top: 30px;
-  background-color: rgba(0,0,0,0.5);
-  padding: 30px;
-  border-radius: 70px;
-  color: rgb(169, 182, 197);
+  background-color: rgba(250,250,250,1);
+  border-radius: 20px;
+  width: 400px;
+  padding: 10px 0;
 `
 
 export default Skills

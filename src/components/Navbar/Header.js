@@ -13,23 +13,27 @@ class Header extends Component {
   render () {
     return (
       <header>
-        <Navbar bg="light" expand="sm" collapseOnSelect='true' fixed='top'>
+        <NavbarStyled bg="light" expand="sm" collapseOnSelect='true' fixed='top'>
           <NavbarTextStyled className='navbar-brand' onClick={() => scroll.scrollToTop()}>Sven</NavbarTextStyled>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='about' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >About</LinkStyled>
               <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='skills' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Skills</LinkStyled>
-              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Projects</LinkStyled>
+              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='projects' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Projects</LinkStyled>
               <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Resume</LinkStyled>
               <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Contact</LinkStyled>
             </Nav>
           </Navbar.Collapse>
-        </Navbar>
+        </NavbarStyled>
       </header>
     )
   }
 }
+
+const NavbarStyled = styled(Navbar)`
+  box-shadow: 0 3px 7px 1px rgba(0,0,0,.07),0 -3px 7px 1px rgba(0,0,0,.07)
+`
 
 const LinkStyled  = styled(Link)`
   :hover {

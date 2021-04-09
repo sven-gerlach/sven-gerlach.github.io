@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import LandingPage from './components/LandingPage/LandingPage'
 import About from './../src/components/About/About'
 import Skills from './components/Skills/Skills'
+import Projects from './components/Projects/Projects'
 
-// use react-scroll for smooth scrolling
 // use react-reveal for revealing / fading
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
           <LandingPage />
           <About />
           <Skills />
+          <Projects />
         </Route>
       </main>
     </Router>

@@ -71,10 +71,10 @@ const ImgContainer = styled.div`
 `
 
 const TextContainer = styled.div`
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(250,250,250,0.6);
   padding: 30px;
   border-radius: 70px;
-  color: rgb(169, 182, 197);
+  color: rgb(0, 0, 0);
 `
 
 const H1 = styled.h1`
