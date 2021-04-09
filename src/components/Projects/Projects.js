@@ -12,6 +12,11 @@ class Projects extends Component {
             <Element name='projects' className='element'><H2>PROJECTS</H2></Element>
           </Col>
         </Row>
+        <Row>
+          <Col>
+            
+          </Col>
+        </Row>
       </Container>
     )
   }
