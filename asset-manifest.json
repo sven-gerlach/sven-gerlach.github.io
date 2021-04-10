@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.a8cd7348.chunk.js",
-    "main.js.map": "/static/js/main.a8cd7348.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4fb0cf27.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4fb0cf27.js.map",
+    "main.js": "/static/js/main.326be91c.chunk.js",
+    "main.js.map": "/static/js/main.326be91c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.28d954dd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.28d954dd.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.36dd12d7.chunk.js": "/static/js/2.36dd12d7.chunk.js",
-    "static/js/2.36dd12d7.chunk.js.map": "/static/js/2.36dd12d7.chunk.js.map",
-    "static/js/3.b7c80bcd.chunk.js": "/static/js/3.b7c80bcd.chunk.js",
-    "static/js/3.b7c80bcd.chunk.js.map": "/static/js/3.b7c80bcd.chunk.js.map",
+    "static/js/2.db7fff42.chunk.js": "/static/js/2.db7fff42.chunk.js",
+    "static/js/2.db7fff42.chunk.js.map": "/static/js/2.db7fff42.chunk.js.map",
+    "static/js/3.9d0ddd17.chunk.js": "/static/js/3.9d0ddd17.chunk.js",
+    "static/js/3.9d0ddd17.chunk.js.map": "/static/js/3.9d0ddd17.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.36dd12d7.chunk.js.LICENSE.txt": "/static/js/2.36dd12d7.chunk.js.LICENSE.txt",
+    "static/js/2.db7fff42.chunk.js.LICENSE.txt": "/static/js/2.db7fff42.chunk.js.LICENSE.txt",
     "static/media/AI-logic_effects.dcb0b313.png": "/static/media/AI-logic_effects.dcb0b313.png",
     "static/media/Code_effects.4189c65d.png": "/static/media/Code_effects.4189c65d.png",
+    "static/media/GitHub_white-bg.47e090ca.png": "/static/media/GitHub_white-bg.47e090ca.png",
     "static/media/Sven_b&w.e43bcf91.png": "/static/media/Sven_b&w.e43bcf91.png",
     "static/media/bash.005b78e4.png": "/static/media/bash.005b78e4.png",
     "static/media/bootstrap.99d72763.png": "/static/media/bootstrap.99d72763.png",
     "static/media/chartjs.ab2d337b.png": "/static/media/chartjs.ab2d337b.png",
     "static/media/css.446837af.png": "/static/media/css.446837af.png",
     "static/media/django.3c886017.png": "/static/media/django.3c886017.png",
+    "static/media/food4u.7505bb7b.png": "/static/media/food4u.7505bb7b.png",
     "static/media/github.8684d899.png": "/static/media/github.8684d899.png",
     "static/media/heroku.25c65833.png": "/static/media/heroku.25c65833.png",
     "static/media/html5.116d01ed.png": "/static/media/html5.116d01ed.png",
@@ -37,13 +39,15 @@
     "static/media/react.462a4f7c.png": "/static/media/react.462a4f7c.png",
     "static/media/sass.a6cd85c8.png": "/static/media/sass.a6cd85c8.png",
     "static/media/stripeconnect.ec636c0b.png": "/static/media/stripeconnect.ec636c0b.png",
-    "static/media/styledcomponents.186b514d.png": "/static/media/styledcomponents.186b514d.png"
+    "static/media/styledcomponents.186b514d.png": "/static/media/styledcomponents.186b514d.png",
+    "static/media/tic-tac-toe.1e697f77.png": "/static/media/tic-tac-toe.1e697f77.png",
+    "static/media/workout-tracker.4fa2b54c.png": "/static/media/workout-tracker.4fa2b54c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4fb0cf27.js",
+    "static/js/runtime-main.28d954dd.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.36dd12d7.chunk.js",
+    "static/js/2.db7fff42.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.a8cd7348.chunk.js"
+    "static/js/main.326be91c.chunk.js"
   ]
 }
