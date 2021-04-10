@@ -25,10 +25,7 @@ class Skills extends Component {
 }
 
 const ImgContainer = styled.div`
-   //background-image: url(${imgCode});
   background-color: rgb(43,43,43);
-  background-size: cover;
-  background-position: left;
   margin-top: 56px;
   height: 100%;
 `

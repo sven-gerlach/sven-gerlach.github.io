@@ -104,6 +104,9 @@ const ButtonStyled = styled.button`
   border: none;
   color: white;
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   :hover {
     background-color: rgb(113, 76, 134);
   }

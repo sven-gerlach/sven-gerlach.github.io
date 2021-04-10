@@ -6,6 +6,7 @@ import LandingPage from './components/LandingPage/LandingPage'
 import About from './../src/components/About/About'
 import Skills from './components/Skills/Skills'
 import Projects from './components/Projects/Projects'
+import Resume from './components/Resume/Resume'
 
 // use react-reveal for revealing / fading
 
@@ -19,6 +20,7 @@ function App() {
           <About />
           <Skills />
           <Projects />
+          <Resume />
         </Route>
       </main>
     </Router>
