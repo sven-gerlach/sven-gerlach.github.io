@@ -3,9 +3,25 @@ import {Col, Container, Row} from "react-bootstrap";
 import { Element } from "react-scroll";
 import styled from "styled-components";
 import ProjectComponent from './ProjectComponent/ProjectComponent'
+import projects from './ProjectComponent/ComponentContent'
+import { v4 as uuid } from 'uuid'
 
 class Projects extends Component {
   render () {
+    const projectJSX = []
+    for (const project of projects) {
+      projectJSX.push(
+        <ProjectComponent
+          key={uuid()}
+          img={project.img}
+          title={project.title}
+          description={project.description}
+          technologies={project.technologies}
+          buttons={project.buttons}
+        />
+      )
+    }
+
     return (
       <Container className='mt-5'>
         <Row>
@@ -14,10 +30,7 @@ class Projects extends Component {
           </Col>
         </Row>
         <DivStyled>
-          <ProjectComponent />
-          <ProjectComponent />
-          <ProjectComponent />
-          <ProjectComponent />
+          {projectJSX}
         </DivStyled>
       </Container>
     )
@@ -35,6 +48,7 @@ const DivStyled = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
+  align-items: stretch;
   
   @media (max-width: 991px) {
     grid-template-columns: 1fr;

@@ -32,7 +32,7 @@ class LandingPage extends Component {
                       title={'Link to Sven\'s LinkedIn page'}
                       target='_blank'
                       rel='noreferrer'
-                    ><Img src={imgLinkedIn} alt='black & white LinkedIn logo' />
+                      ><Img src={imgLinkedIn} alt='black & white LinkedIn logo' />
                     </a>
                   </ContactDiv>
                 </TextContainer>
