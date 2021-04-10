@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {Col, Container, Row} from "react-bootstrap";
 import { Element } from "react-scroll";
 import styled from "styled-components";
+import ProjectComponent from './ProjectComponent/ProjectComponent'
 
 class Projects extends Component {
   render () {
@@ -12,11 +13,12 @@ class Projects extends Component {
             <Element name='projects' className='element'><H2>PROJECTS</H2></Element>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            
-          </Col>
-        </Row>
+        <DivStyled>
+          <ProjectComponent />
+          <ProjectComponent />
+          <ProjectComponent />
+          <ProjectComponent />
+        </DivStyled>
       </Container>
     )
   }
@@ -28,5 +30,16 @@ const H2 = styled.h2`
   margin: 30px 0 60px 0;
   letter-spacing: 4px;
 `
+
+const DivStyled = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  
+  @media (max-width: 991px) {
+    grid-template-columns: 1fr;
+  }
+`
+
 
 export default Projects
