@@ -19,6 +19,7 @@ import styledcomponents from './../../../lib/img/skills/styledcomponents.png'
 
 // back-end
 import django from './../../../lib/img/skills/django.png'
+import djangoRestFramework from './../../../lib/img/skills/django-rest-framework.png'
 import express from './../../../lib/img/skills/express.png'
 import heroku from './../../../lib/img/skills/heroku.png'
 import nodejs from './../../../lib/img/skills/nodejs.png'
@@ -36,31 +37,32 @@ import pygame from './../../../lib/img/skills/pygame.png'
 import stripe from './../../../lib/img/skills/stripeconnect.png'
 
 const skillsLibrary = {
-  JavaScript: javascript,
-  Python: python,
-  MongoDB: mongodb,
-  Mongoose: mongoose,
-  PostgreSQL: postgresql,
+  Bash: bash,
   Bootstrap: bootstrap,
   ChartJS: chartjs,
   CSS: css,
-  HTML5: html5,
-  jQuery: jquery,
-  React: react,
-  Sass: sass,
-  'Styled Components': styledcomponents,
   Django: django,
+  "Django-Rest-Framework": djangoRestFramework,
   Express: express,
-  Heroku: heroku,
-  NodeJS: nodejs,
-  Selenium: selenium,
-  Bash: bash,
   Git: git,
   GitHub: github,
+  Heroku: heroku,
+  HTML5: html5,
+  JavaScript: javascript,
+  jQuery: jquery,
   Lodash: lodash,
+  MongoDB: mongodb,
+  Mongoose: mongoose,
+  NodeJS: nodejs,
   PipEnv: pipenv,
+  PostgreSQL: postgresql,
   Pygame: pygame,
-  Stripe: stripe
+  Python: python,
+  React: react,
+  Sass: sass,
+  Selenium: selenium,
+  Stripe: stripe,
+  'Styled Components': styledcomponents
 }
 
 export default skillsLibrary

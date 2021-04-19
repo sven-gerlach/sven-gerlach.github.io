@@ -35,6 +35,9 @@ const ImgContainer = styled.div`
     padding-bottom: 32%;
   }
 
+  @media (max-width: 575px) {
+    height: 150px;
+  }
 `
 
 const Img = styled.img`
@@ -43,6 +46,11 @@ const Img = styled.img`
   max-height: 100px;
   margin: 20px auto;
   text-align: center;
+  
+  @media (max-width: 575px) {
+    max-width: 50%;
+    max-height: 60px;
+  }
 `
 
 const P = styled.p`
@@ -56,13 +64,13 @@ const P = styled.p`
   position: absolute;
   bottom: 0;
   line-height: 25px;
-
-  @media (max-width: 400px) {
-    font-size: 1.1rem;
-  }
-
+  
   @media (max-width: 767px) {
     font-size: 1.3rem;
+  }
+  
+  @media (max-width: 575px) {
+    font-size: 1.1rem;
   }
 `
 

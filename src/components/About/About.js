@@ -15,13 +15,29 @@ class About extends Component {
               <section>
                 <ImgSven src={sven} alt='black and white portrait of Sven' />
                 <H5>Who am I?</H5>
-                <P>I am a full-stack Software Engineering graduate at General Assembly, with experience in front-end and back-end coding, including JavaScript (Node, jQuery, Bootstrap), Python, HTML, CSS / SCSS, Git, and Bash.</P>
+                <p>
+                  I am a full-stack Software Engineering graduate at General Assembly, with <b>four completed and deployed projects</b>, utilising <b>4 languages and 24 frameworks/libraries/utilities</b>. I have recently taken the JavaScript skill assessment where I ranked in the <b>top 5% of more than 1 million people</b> who took this timed test on LinkedIn.
+                </p>
               </section>
               <SectionAfterImg>
                 <H5>My Background</H5>
-                <P>Prior to Software Development, I built a career in Investment Banking and Private Equity for 12 years, where I developed a broad skill base across fund-raising for multi-billion-dollar companies, project management to tight deadlines, originating new deals, and negotiating on behalf of clients. I also gained core technical skills, such as marketing a company’s core value proposition, deriving and defending corporate valuations, as well as finance, accounting, and corporate tax knowledge.</P>
-                <H5 >What Drives Me</H5>
-                <P>With 19 completed fund-raising, mergers, and acquisitions deals, with an aggregate deal value of $16bn, I have a strong track record in tech-enabled Business Services. I am passionate about technology-enhanced and subscription-based business models and I am looking to work with start-ups, developing a more robust business model that is both customer and investor centric.</P>
+                <p>
+                  Prior to Software Development, I built a career in Investment Banking and Private Equity for 12 years, where I developed a broad skill base, including:
+                </p>
+                <ul>
+                  <li>Managing more than <b>10 projects</b> at a time,</li>
+                  <li>Core contact for <b>C-level executives</b> of multi-billion dollar companies,</li>
+                  <li>Managing <b>teams</b> of 10 bankers,</li>
+                  <li>Drafting and presenting deal documents to <b>C-level executives</b></li>
+                  <li><b>Negotiating</b> on behalf of demanding clients</li>
+                  <li>Building hundreds of Excel-based operating and valuation models</li>
+                </ul>
+                <H5>What Excites Me</H5>
+                <li>A long-run personal and professional <b>growth</b> trajectory</li>
+                <li>Writing <b>clean, human-readable and efficient</b> code</li>
+                <li>Algorithms, <b>machine learning</b>, AI and neural networks</li>
+                <li>Customer-friendly design of the UI with a <b>strong focus on UX</b></li>
+                <li>Understanding <b>complex systems</b> and process</li>
               </SectionAfterImg>
             </Col>
           </Row>
@@ -39,7 +55,10 @@ const H2 = styled.h2`
 `
 
 const H5 = styled.h5`
-  color: rgb(102, 131, 86)
+  color: rgb(102, 131, 86);
+  :last-of-type {
+    margin-top: 50px;
+  }
 `
 
 const ImgSven = styled.img`
@@ -47,12 +66,6 @@ const ImgSven = styled.img`
   float: left;
   margin: 0 30px 50px 0;
   border-radius: 20px;
-`
-
-const P = styled.p`
-  line-height: 30px;
-  text-align: justify;
-  margin-bottom: 50px;
 `
 
 const SectionAfterImg = styled.section`

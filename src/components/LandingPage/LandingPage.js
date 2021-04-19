@@ -81,6 +81,9 @@ const H1 = styled.h1`
   font-size: 5rem;
   text-align: center;
   letter-spacing: 4px;
+  @media (max-width: 500px) {
+    font-size: 3rem;
+  }
 `
 
 const P = styled.p`
@@ -124,7 +127,7 @@ const Img = styled.img`
 
 const ScrollDown = styled.div`
   position: relative;
-  bottom: -20vh;
+  bottom: -15vh;
   
   .arrow,
   .arrow:before {

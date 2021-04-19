@@ -94,6 +94,10 @@ const UlStyled = styled.ul`
     flex: 0 32%;
     height: 30px;
     margin-bottom: calc((100px - 32px * 3px) / 2);
+    
+    @media (max-width: 520px) {
+      flex: 0 49%;
+    }
   }
 `
 
@@ -113,6 +117,12 @@ const ButtonStyled = styled.button`
   :active {
     background-color: rgb(113, 76, 134);
     
+  }
+  
+  @media (max-width: 480px) {
+    img {
+      display: none;
+    }
   }
 `
 

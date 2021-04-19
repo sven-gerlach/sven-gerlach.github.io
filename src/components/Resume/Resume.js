@@ -17,9 +17,11 @@ class Resume extends Component {
           <Row>
             <Col>
               <IframeStyled
-                src='https://onedrive.live.com/embed?cid=8026BD6A4D875F09&resid=8026BD6A4D875F09%216623&authkey=AAYmBUlI1x3YHtU&em=2'
+                src='https://onedrive.live.com/embed?cid=8026BD6A4D875F09&resid=8026BD6A4D875F09%216631&authkey=AIGcQBkiqQfkvm8&em=2'
                 loading='lazy'
                 allowFullScreen={true}
+                frameborder='0'
+                scrolling='yes'
               >
               </IframeStyled>
             </Col>
@@ -45,13 +47,13 @@ const H2 = styled.h2`
   letter-spacing: 4px;
   background-color: rgba(250,250,250,1);
   border-radius: 20px;
-  width: 400px;
+  width: min(400px, 100%)
   padding: 10px 0;
 `
 
 const IframeStyled = styled.iframe`
   display: block;
-  width: 95%;
+  width: 100%;
   height: 120vh;
   margin-bottom: 60px;
   border: 1px solid rgb(215,215,215);

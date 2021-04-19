@@ -32,7 +32,7 @@ class Header extends Component {
 }
 
 const NavbarStyled = styled(Navbar)`
-  box-shadow: 0 3px 7px 1px rgba(0,0,0,.07),0 -3px 7px 1px rgba(0,0,0,.07)
+  box-shadow: 0 3px 7px 1px rgba(0,0,0,.07),0 -3px 7px 1px rgba(0,0,0,.07);
 `
 
 const LinkStyled  = styled(Link)`
