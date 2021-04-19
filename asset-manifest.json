@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.12e9969d.chunk.js",
-    "main.js.map": "/static/js/main.12e9969d.chunk.js.map",
+    "main.js": "/static/js/main.e5df1db1.chunk.js",
+    "main.js.map": "/static/js/main.e5df1db1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.28d954dd.js",
     "runtime-main.js.map": "/static/js/runtime-main.28d954dd.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -22,6 +22,7 @@
     "static/media/bootstrap.99d72763.png": "/static/media/bootstrap.99d72763.png",
     "static/media/chartjs.ab2d337b.png": "/static/media/chartjs.ab2d337b.png",
     "static/media/css.446837af.png": "/static/media/css.446837af.png",
+    "static/media/django-rest-framework.59f8b0de.png": "/static/media/django-rest-framework.59f8b0de.png",
     "static/media/django.3c886017.png": "/static/media/django.3c886017.png",
     "static/media/food4u.7505bb7b.png": "/static/media/food4u.7505bb7b.png",
     "static/media/github.8684d899.png": "/static/media/github.8684d899.png",
@@ -40,6 +41,7 @@
     "static/media/sass.a6cd85c8.png": "/static/media/sass.a6cd85c8.png",
     "static/media/stripeconnect.ec636c0b.png": "/static/media/stripeconnect.ec636c0b.png",
     "static/media/styledcomponents.186b514d.png": "/static/media/styledcomponents.186b514d.png",
+    "static/media/tabor_img2.bd46ff9d.png": "/static/media/tabor_img2.bd46ff9d.png",
     "static/media/tic-tac-toe.1e697f77.png": "/static/media/tic-tac-toe.1e697f77.png",
     "static/media/workout-tracker.4fa2b54c.png": "/static/media/workout-tracker.4fa2b54c.png"
   },
@@ -48,6 +50,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.90f8523f.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.12e9969d.chunk.js"
+    "static/js/main.e5df1db1.chunk.js"
   ]
 }
