@@ -17,7 +17,7 @@ class Resume extends Component {
           <Row>
             <Col>
               <IframeStyled
-                src='https://onedrive.live.com/embed?cid=8026BD6A4D875F09&resid=8026BD6A4D875F09%216631&authkey=AIGcQBkiqQfkvm8&em=2'
+                src='https://onedrive.live.com/embed?cid=8026BD6A4D875F09&resid=8026BD6A4D875F09%216634&authkey=AHCnLmnUt9pwR-M&em=2'
                 loading='lazy'
                 allowFullScreen={true}
                 frameborder='0'
