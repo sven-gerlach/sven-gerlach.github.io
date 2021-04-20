@@ -33,11 +33,13 @@ class About extends Component {
                   <li>Building hundreds of Excel-based operating and valuation models</li>
                 </ul>
                 <H5>What Excites Me</H5>
-                <li>A long-run personal and professional <b>growth</b> trajectory</li>
-                <li>Writing <b>clean, human-readable and efficient</b> code</li>
-                <li>Algorithms, <b>machine learning</b>, AI and neural networks</li>
-                <li>Customer-friendly design of the UI with a <b>strong focus on UX</b></li>
-                <li>Understanding <b>complex systems</b> and process</li>
+                <ul>
+                  <li>A long-run personal and professional <b>growth</b> trajectory</li>
+                  <li>Writing <b>clean, human-readable and efficient</b> code</li>
+                  <li>Algorithms, <b>machine learning</b>, AI and neural networks</li>
+                  <li>Customer-friendly design of the UI with a <b>strong focus on UX</b></li>
+                  <li>Understanding <b>complex systems</b> and process</li>
+                </ul>
               </SectionAfterImg>
             </Col>
           </Row>
