@@ -47,7 +47,8 @@ const H2 = styled.h2`
 const DivStyled = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
   align-items: stretch;
   
   @media (max-width: 991px) {
