@@ -9,9 +9,9 @@ const projectContent = [
     title: 'ExTaber',
     description: [
       'Online platform for independent authors and investigative journalists',
-      'Back-end is entirely based on django, django rest framework, and PostgreSQL',
+      'Back-end\'s MVC is entirely based on django, django rest framework, and PostgreSQL',
       'CRUDing on 23 views and 5 models',
-      'Features two many-to-many relationships with two custom through models',
+      'Features two many-to-many relationships with two custom through models, recording article and comment votes',
       '100% server-based data handling',
       'Dynamic searching, filtering, and sorting across all published articles handled entirely server-side',
       'Using Marked and Dompurify to allow authors to provide article content in clean markdown format'

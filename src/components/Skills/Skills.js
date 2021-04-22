@@ -33,6 +33,7 @@ const RowContainer = styled(Row)`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 15px;
 `
 
 const H2 = styled.h2`
@@ -42,7 +43,6 @@ const H2 = styled.h2`
   letter-spacing: 4px;
   background-color: rgba(250,250,250,1);
   border-radius: 20px;
-  width: min(400px, 100%);
   padding: 10px 0;
   
 `

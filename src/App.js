@@ -7,8 +7,7 @@ import About from './../src/components/About/About'
 import Skills from './components/Skills/Skills'
 import Projects from './components/Projects/Projects'
 import Resume from './components/Resume/Resume'
-
-// use react-reveal for revealing / fading
+import Planning from './components/Planning/Planning'
 
 function App() {
   return (
@@ -20,6 +19,7 @@ function App() {
           <About />
           <Skills />
           <Projects />
+          <Planning />
           <Resume />
         </Route>
       </main>

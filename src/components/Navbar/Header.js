@@ -21,6 +21,7 @@ class Header extends Component {
               <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='about' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >About</LinkStyled>
               <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='skills' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Skills</LinkStyled>
               <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='projects' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Projects</LinkStyled>
+              <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='planning' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Planning</LinkStyled>
               <LinkStyled activeClass='active' className='element my-auto mx-2 nav-link' to='resume' spy={true} smooth='easeInOutQuad' duration={1500} offset={-100} >Resume</LinkStyled>
             </Nav>
           </Navbar.Collapse>
