@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.4966f391.chunk.js",
-    "main.js.map": "/static/js/main.4966f391.chunk.js.map",
+    "main.js": "/static/js/main.81ea3b0e.chunk.js",
+    "main.js.map": "/static/js/main.81ea3b0e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4590a1fd.js",
     "runtime-main.js.map": "/static/js/runtime-main.4590a1fd.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -31,6 +31,7 @@
     "static/media/django.3c886017.png": "/static/media/django.3c886017.png",
     "static/media/food4u.7505bb7b.png": "/static/media/food4u.7505bb7b.png",
     "static/media/github.8684d899.png": "/static/media/github.8684d899.png",
+    "static/media/gym-reservation-automation.9b171576.png": "/static/media/gym-reservation-automation.9b171576.png",
     "static/media/heroku.25c65833.png": "/static/media/heroku.25c65833.png",
     "static/media/html5.116d01ed.png": "/static/media/html5.116d01ed.png",
     "static/media/javascript.1b134cf3.png": "/static/media/javascript.1b134cf3.png",
@@ -55,6 +56,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.84cc4b3c.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.4966f391.chunk.js"
+    "static/js/main.81ea3b0e.chunk.js"
   ]
 }
