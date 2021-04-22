@@ -2,6 +2,7 @@ import ticTacToeImg from './../../../lib/img/projects/tic-tac-toe.png'
 import workoutTrackerImg from './../../../lib/img/projects/workout-tracker.png'
 import food4uImg from './../../../lib/img/projects/food4u.png'
 import exTaber from './../../../lib/img/projects/tabor_img2.png'
+import webdriver from './../../../lib/img/projects/gym-reservation-automation.png'
 
 const projectContent = [
   {
@@ -176,6 +177,30 @@ const projectContent = [
         href: 'https://sven-gerlach.github.io/tic-tac-toe-client/',
         title: 'Link to app',
         buttonName: 'App'
+      }
+    ]
+  },
+  {
+    img: webdriver,
+    title: 'Gym Reservation Automation',
+    description: [
+      'Covid-induced booking restrictions resulted in gym slots filling up within 5 seconds of the booking platform opening every midnight',
+      'This script automates the booking process using Selenium Webdriver',
+      'Using async/await ensures an orderly processing of otherwise asynchronous results',
+      'Storing of my gym booking platform credentials in a local .env file',
+      '.env file access rights are limited to read-write for user only (chmod 600 .env)',
+      'Scheduling in crontab ensures daily execution of this automation script at 1 minute to midnight'
+    ],
+    technologies: [
+      'bash',
+      'envy',
+      'Selenium Webdriver'
+    ],
+    buttons: [
+      {
+        href: 'https://github.com/sven-gerlach/525-gym-reservation-webdriver',
+        title: 'Link to repo',
+        buttonName: 'Script'
       }
     ]
   }
