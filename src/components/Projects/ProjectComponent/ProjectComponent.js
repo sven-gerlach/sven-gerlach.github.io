@@ -83,6 +83,7 @@ const ButtonDiv = styled.div`
 const LinkStyled = styled.a`
   flex: 1 1 50px;
   margin: 0 6px;
+  text-decoration: none !important;
 `
 
 const UlStyled = styled.ul`
@@ -111,12 +112,14 @@ const ButtonStyled = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 500ms ease-in-out;
+  
   :hover {
     background-color: rgb(113, 76, 134);
   }
   :active {
     background-color: rgb(113, 76, 134);
-    
+    transition: none;
   }
   
   @media (max-width: 480px) {

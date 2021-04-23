@@ -100,28 +100,16 @@ const ContactDiv = styled.div`
 const Img = styled.img`
   height: 30px;
   margin: 0 20px;
-
+  transition-duration: 500ms;
+  
   &:hover {
     cursor: pointer;
-    animation: shake 1s;
+    filter: invert(35%) sepia(10%) saturate(2407%) hue-rotate(234deg) brightness(90%) contrast(87%);;
   }
 
   &:active {
-    transform: scale(0.8);
-  }
-
-  @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
+    filter: invert(35%) sepia(10%) saturate(2407%) hue-rotate(234deg) brightness(90%) contrast(87%);;
+    transition: none;
   }
 `
 

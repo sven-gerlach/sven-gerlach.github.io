@@ -12,7 +12,7 @@ import {
 class Header extends Component {
   render () {
     return (
-      <header>
+      <HeaderStyled>
         <NavbarStyled bg="light" expand="sm" collapseOnSelect='true' fixed='top'>
           <NavbarTextStyled className='navbar-brand' onClick={() => scroll.scrollToTop()}>Sven</NavbarTextStyled>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -26,10 +26,27 @@ class Header extends Component {
             </Nav>
           </Navbar.Collapse>
         </NavbarStyled>
-      </header>
+      </HeaderStyled>
     )
   }
 }
+
+const HeaderStyled = styled.header` 
+  .nav-link,
+  .navbar-text {
+    transition: color 500ms ease-in-out;
+    font-weight: bold;
+    
+    :hover {
+      color: rgb(202, 120, 50) !important;
+    }
+    
+    :active {
+      color: rgb(202, 120, 50) !important;
+      transition: none;
+    }
+  }
+`
 
 const NavbarStyled = styled(Navbar)`
   box-shadow: 0 3px 7px 1px rgba(0,0,0,.07),0 -3px 7px 1px rgba(0,0,0,.07);

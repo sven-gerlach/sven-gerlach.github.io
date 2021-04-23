@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Element } from 'react-scroll'
 import styled from 'styled-components'
-import aiImage from './../../lib/img/AI-logic_effects.png'
 
 class Resume extends Component {
   render () {
