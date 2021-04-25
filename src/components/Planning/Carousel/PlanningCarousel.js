@@ -29,7 +29,7 @@ class PlanningCarousel extends Component {
             />
             <Carousel.Caption>
               <h3>User Stories</h3>
-              <p>I identify user stories which drive my UX/UI design choices</p>
+              <p>Identifying user stories drives my UX/UI design choices</p>
               <p>I draft wireframes to effectively address these use cases</p>
               <p>At this point, I will also draft an interim ERD</p>
             </Carousel.Caption>
@@ -44,7 +44,7 @@ class PlanningCarousel extends Component {
             <Carousel.Caption>
               <h3>Kanban: Front-End</h3>
               <p>Based on the wireframes, I develop a detailed front-end Kanban</p>
-              <p>This includes anticipated front-end SPA routes and components</p>
+              <p>Including front-end SPA routes and components</p>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -70,8 +70,8 @@ class PlanningCarousel extends Component {
             />
             <Carousel.Caption>
               <h3>Kanban: Project</h3>
-              <p>Consolidate planning/time management with project Kanban</p>
-              <p>Review of all Kanbans every morning/evening for progress</p>
+              <p>Consolidate planning/time management</p>
+              <p>Review all three Kanbans every morning/evening</p>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -83,8 +83,8 @@ class PlanningCarousel extends Component {
             />
             <Carousel.Caption>
               <h3>Readme</h3>
-              <p>Many aspects of the readme fall out of my detailed planning</p>
-              <p>I populate the readme over the course of the project</p>
+              <p>Drafting Readme at the end of the project</p>
+              <p>Serves as a control mechanism on all objectives</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
