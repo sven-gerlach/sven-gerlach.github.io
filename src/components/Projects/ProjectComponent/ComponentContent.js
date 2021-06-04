@@ -3,6 +3,7 @@ import workoutTrackerImg from './../../../lib/img/projects/workout-tracker.png'
 import food4uImg from './../../../lib/img/projects/food4u.png'
 import exTaber from './../../../lib/img/projects/tabor_img2.png'
 import webdriver from './../../../lib/img/projects/gym-reservation-automation.png'
+import alien_invasion from './../../../lib/img/projects/alien-invasion.png'
 
 const projectContent = [
   {
@@ -199,6 +200,30 @@ const projectContent = [
     buttons: [
       {
         href: 'https://github.com/sven-gerlach/525-gym-reservation-webdriver',
+        title: 'Link to repo',
+        buttonName: 'Script'
+      }
+    ]
+  },
+  {
+    img: alien_invasion,
+    title: 'Alien Invasion',
+    description: [
+      'Replica of the popular arcade game Alien Invasion / Space Invaders',
+      'Class-based modelling of key game objects, such as space ships, bullets, interface, scoreboard, etc',
+      'Pygame framework used to blit objects to the screen and model game-specific issues such as sprites',
+      'To play the game, please click the below button and follow the instructions provided'
+    ],
+    technologies: [
+      'bash',
+      'Pandas',
+      'PipEnv',
+      'Pygame',
+      'Python'
+    ],
+    buttons: [
+      {
+        href: 'https://github.com/sven-gerlach/alien_invasion',
         title: 'Link to repo',
         buttonName: 'Script'
       }
