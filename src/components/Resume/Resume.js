@@ -2,8 +2,21 @@ import React, { Component } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Element } from 'react-scroll'
 import styled from 'styled-components'
+import ViewSDKClient from './ViewSDKClient'
+
 
 class Resume extends Component {
+  componentDidMount() {
+    const viewSDKClient = new ViewSDKClient()
+    viewSDKClient.ready().then(() => {
+      /* Invoke file preview */
+      viewSDKClient.previewFile("pdf-div", {
+        /* Pass the embed mode option here */
+        embedMode: "IN_LINE"
+      });
+    });
+  }
+
   render () {
     return (
       <Container>
@@ -14,14 +27,9 @@ class Resume extends Component {
         </Row>
         <Row>
           <Col>
-            <IframeStyled
-              src='https://onedrive.live.com/embed?cid=8026BD6A4D875F09&resid=8026BD6A4D875F09%216634&authkey=AHCnLmnUt9pwR-M&em=2'
-              loading='lazy'
-              allowFullScreen={true}
-              frameborder='0'
-              scrolling='yes'
-            >
-            </IframeStyled>
+            <div className="in-line-container">
+              <div id="pdf-div" className="in-line-div"/>
+            </div>
           </Col>
         </Row>
       </Container>
@@ -37,14 +45,6 @@ const H2 = styled.h2`
   border-radius: 20px;
   width: min(400px, 100%);
   padding: 10px 0;
-`
-
-const IframeStyled = styled.iframe`
-  display: block;
-  width: 100%;
-  height: 120vh;
-  margin-bottom: 60px;
-  border: 1px solid rgb(215,215,215);
 `
 
 export default Resume

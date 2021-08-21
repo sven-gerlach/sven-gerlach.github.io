@@ -25,11 +25,11 @@ class About extends Component {
                   Prior to Software Development, I built a career in Investment Banking and Private Equity for 12 years, where I developed a broad skill base, including:
                 </p>
                 <ul>
-                  <li>Managing more than <b>10 projects</b> at a time,</li>
+                  <li>Managing more than <b>10 projects</b> concurrently,</li>
                   <li>Being key contact for <b>C-level executives</b> of multi-billion dollar companies,</li>
                   <li>Managing <b>teams</b> of 10 bankers,</li>
                   <li>Drafting and presenting deal documents to <b>C-level executives</b></li>
-                  <li><b>Negotiating</b> on behalf of demanding clients</li>
+                  <li><b>Negotiating</b> on behalf of demanding clients with tight deadlines</li>
                   <li>Building hundreds of Excel-based operating and valuation models</li>
                 </ul>
                 <H5>What Excites Me</H5>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import imgCode from './../../lib/img/Code_effects.png'
+import imgCode from './../../lib/img/Code_effects_compressed.png'
 import imgGitHub from './../../lib/img/GitHub-Mark-Light-120px-plus.png'
 import imgLinkedIn from '../../lib/img/LinkedIn.png'
 import {Col, Container, Row} from "react-bootstrap";
