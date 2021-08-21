@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.d44d4b12.chunk.js",
-    "main.js.map": "/static/js/main.d44d4b12.chunk.js.map",
+    "main.js": "/static/js/main.8db0daed.chunk.js",
+    "main.js.map": "/static/js/main.8db0daed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4590a1fd.js",
     "runtime-main.js.map": "/static/js/runtime-main.4590a1fd.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.84cc4b3c.chunk.js": "/static/js/2.84cc4b3c.chunk.js",
-    "static/js/2.84cc4b3c.chunk.js.map": "/static/js/2.84cc4b3c.chunk.js.map",
+    "static/js/2.fb99a0d3.chunk.js": "/static/js/2.fb99a0d3.chunk.js",
+    "static/js/2.fb99a0d3.chunk.js.map": "/static/js/2.fb99a0d3.chunk.js.map",
     "static/js/3.e09a4b40.chunk.js": "/static/js/3.e09a4b40.chunk.js",
     "static/js/3.e09a4b40.chunk.js.map": "/static/js/3.e09a4b40.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.84cc4b3c.chunk.js.LICENSE.txt": "/static/js/2.84cc4b3c.chunk.js.LICENSE.txt",
+    "static/js/2.fb99a0d3.chunk.js.LICENSE.txt": "/static/js/2.fb99a0d3.chunk.js.LICENSE.txt",
     "static/media/1-user-stories.ec8ab42e.png": "/static/media/1-user-stories.ec8ab42e.png",
     "static/media/4-Kanban Planning_front-end.cff701f5.png": "/static/media/4-Kanban Planning_front-end.cff701f5.png",
     "static/media/5-Kanban Planning_back-end.3ad44f9c.png": "/static/media/5-Kanban Planning_back-end.3ad44f9c.png",
     "static/media/6-Kanban-project-planning.460290b7.png": "/static/media/6-Kanban-project-planning.460290b7.png",
     "static/media/7-Readme.41a61a0d.png": "/static/media/7-Readme.41a61a0d.png",
     "static/media/AI-logic_effects.dcb0b313.png": "/static/media/AI-logic_effects.dcb0b313.png",
-    "static/media/Code_effects.4189c65d.png": "/static/media/Code_effects.4189c65d.png",
+    "static/media/Code_effects_compressed.158008a2.png": "/static/media/Code_effects_compressed.158008a2.png",
     "static/media/GitHub_white-bg.47e090ca.png": "/static/media/GitHub_white-bg.47e090ca.png",
     "static/media/Sven_b&w.e43bcf91.png": "/static/media/Sven_b&w.e43bcf91.png",
     "static/media/alien-invasion.b37d6930.png": "/static/media/alien-invasion.b37d6930.png",
@@ -55,8 +55,8 @@
   "entrypoints": [
     "static/js/runtime-main.4590a1fd.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.84cc4b3c.chunk.js",
+    "static/js/2.fb99a0d3.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.d44d4b12.chunk.js"
+    "static/js/main.8db0daed.chunk.js"
   ]
 }
