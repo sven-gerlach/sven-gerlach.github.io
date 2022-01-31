@@ -16,7 +16,7 @@ class About extends Component {
                 <ImgSven src={sven} alt='black and white portrait of Sven' />
                 <H5>Who am I?</H5>
                 <p>
-                  I am a full-stack Software Engineering graduate at General Assembly, with <b>four completed and deployed projects</b>, utilising <b>4 languages and 24 frameworks / libraries / utilities</b>. I have recently taken the JavaScript skill assessment where I ranked in the <b>top 5% of more than 1 million people</b> who took this timed test on LinkedIn.
+                  I am a full-stack Software Engineer, with 7 completed and deployed projects (>2,000h), utilising 4 languages and >20 frameworks/libraries/utilities. I am ranking in the top 5% of more than 1 million people who took the timed JavaScript skill assessment on LinkedIn.
                 </p>
               </section>
               <SectionAfterImg>
@@ -26,7 +26,7 @@ class About extends Component {
                 </p>
                 <ul>
                   <li>Managing more than <b>10 projects</b> concurrently,</li>
-                  <li>Being key contact for <b>C-level executives</b> of multi-billion dollar companies,</li>
+                  <li>Key contact for <b>C-level executives</b> of multi-billion dollar companies,</li>
                   <li>Managing <b>teams</b> of 10 bankers,</li>
                   <li>Drafting and presenting deal documents to <b>C-level executives</b></li>
                   <li><b>Negotiating</b> on behalf of demanding clients with tight deadlines</li>

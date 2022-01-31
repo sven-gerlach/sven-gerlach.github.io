@@ -47,7 +47,7 @@ class ViewSDKClient {
         /* Location of file where it is hosted */
         location: {
           // generated this link with https://www.joelgrayson.com/onedrive-download-link-generator
-          url: "https://api.onedrive.com/v1.0/shares/s!Aglfh01qvSaAtGdQioOLOOqBhfo2/root/content",
+          url: "https://api.onedrive.com/v1.0/shares/s!Aglfh01qvSaAvnV4D5bwX1tDuwIt/root/content",
           /*
           If the file URL requires some additional headers, then it can be passed as follows:-
           headers: [
@@ -62,9 +62,9 @@ class ViewSDKClient {
       /* Pass meta data of file */
       metaData: {
         /* file name */
-        fileName: "Resume_SvenGerlach (Aug'21).pdf",
+        fileName: "Resume_SvenGerlach (Jan'22).pdf",
         /* file ID */
-        id: "6d07d124-ac85-43b3-a867-36930f502ac6",
+        id: "Aglfh01qvSaAvnV4D5bwX1tDuwIt",
       }
     }, viewerConfig);
 

@@ -5,10 +5,10 @@ import skillsLibrary from './skillsLibrary'
 class Skill extends Component {
   render () {
     let skillsJSX = []
-    for (const [key, value] of Object.entries(skillsLibrary)) {
+    for (const [key, obj] of Object.entries(skillsLibrary)) {
       skillsJSX.push(
         <ImgContainer key={key}>
-          <Img src={value} alt={`${key} logo`} />
+          <Img src={obj.logo} alt={`${key} logo`} />
           <P>{key}</P>
         </ImgContainer>
       )
