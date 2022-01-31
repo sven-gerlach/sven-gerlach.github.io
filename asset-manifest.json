@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.663b7f12.chunk.js",
-    "main.js.map": "/static/js/main.663b7f12.chunk.js.map",
+    "main.js": "/static/js/main.77222683.chunk.js",
+    "main.js.map": "/static/js/main.77222683.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4590a1fd.js",
     "runtime-main.js.map": "/static/js/runtime-main.4590a1fd.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -30,14 +30,16 @@
     "static/media/css.446837af.png": "/static/media/css.446837af.png",
     "static/media/django-rest-framework.59f8b0de.png": "/static/media/django-rest-framework.59f8b0de.png",
     "static/media/django.3c886017.png": "/static/media/django.3c886017.png",
+    "static/media/docker.f03cdc9e.png": "/static/media/docker.f03cdc9e.png",
     "static/media/food4u.7505bb7b.png": "/static/media/food4u.7505bb7b.png",
     "static/media/github.8684d899.png": "/static/media/github.8684d899.png",
+    "static/media/google-maps-platform.691e17c0.png": "/static/media/google-maps-platform.691e17c0.png",
     "static/media/gym-reservation-automation.9b171576.png": "/static/media/gym-reservation-automation.9b171576.png",
     "static/media/heroku.25c65833.png": "/static/media/heroku.25c65833.png",
     "static/media/html5.116d01ed.png": "/static/media/html5.116d01ed.png",
     "static/media/javascript.1b134cf3.png": "/static/media/javascript.1b134cf3.png",
+    "static/media/jest.56ed6bcf.png": "/static/media/jest.56ed6bcf.png",
     "static/media/jquery.7e3c733f.png": "/static/media/jquery.7e3c733f.png",
-    "static/media/lodash.ee7ec4ba.png": "/static/media/lodash.ee7ec4ba.png",
     "static/media/mongodb.3be475e6.png": "/static/media/mongodb.3be475e6.png",
     "static/media/mongoose.df9141d3.png": "/static/media/mongoose.df9141d3.png",
     "static/media/nodejs.8e341cc0.png": "/static/media/nodejs.8e341cc0.png",
@@ -57,6 +59,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.fb99a0d3.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.663b7f12.chunk.js"
+    "static/js/main.77222683.chunk.js"
   ]
 }
